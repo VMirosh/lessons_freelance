@@ -1,0 +1,84 @@
+/* Скидання стилів */
+@import url('reset.css');
+
+/* Основні стилі */
+/* Тип №0. Селектор зірочка *  */
+* {
+  /* color: rgb(20, 19, 19); */
+  background: gray;
+}
+/* Тип №1. Селектор тегу */
+img {
+  width: 40%;
+}
+p{
+  color: #ab029a;
+}
+h1, h2, h3{
+  color: yellow;
+}
+span{
+  color: blue;
+}
+/* Тип №2. Селектор класу  */
+
+.header {
+  /* color: rgb(126, 13, 232); */
+}
+.nav {
+  color: white;
+}
+.page {
+  /* color :blue; */
+}
+.main {
+  /* color: #ab029a; */
+}
+/* Тип №3. Селектор ID  */
+#about {
+  /* color: green; */
+}
+/* Тип №4. Селектор атрибутів  */
+[class*="te"]{
+  /* color: brown; */
+}
+/* КОМБІНАЦІЇ СЕЛЕКТОРІВ */
+
+div.list {
+  color :red;
+}
+/* Звертаємось відразу до кількох класів  */
+.list, .item, .text {
+  /* color: goldenrod; */
+}
+/* КАСКАДНІСТЬ (ВКЛАДЕНІСТЬ) СЕЛЕКТОРІВ */
+
+.footer ol {
+ color:blue;
+}
+
+/* Звертаємось до УСІХ об'єктів з класом item на сторінці 
+	АЛЕ лише тих які знаходяться в середені 
+	будь-якого об'єкту з класом list 
+*/
+.list .item {
+	color: yellowgreen;
+}
+/* 
+	Усі об'єкти в середені 
+	об'єктів з класом .text 
+*/
+.list *{
+  /* color: #df0cc0; */
+}
+/* Спеціальні символи */
+.text > p {
+	color: rgb(198, 177, 177);
+}
+.list ~ p{
+  color: blue;
+}
+.list + p{
+  color: rgb(255, 60, 0);
+}
+
