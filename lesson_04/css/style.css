@@ -1,0 +1,117 @@
+/* Підключення шрифтів */
+
+/* Google Fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap'); */
+
+/* Google Fonts Plugin */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+
+/* Підключення локально */
+@import url("fonts.css");
+/* Шрифти для ДЗ */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+
+@import url("reset.css");
+
+body {
+    font-family: "Gilroy",sans-serif;
+}
+.title {
+    text-align: center;
+    font-family:"Manrope",sans-serif;
+    font-weight: 700;
+}
+.text_style {
+    font-size: 18px;
+    font-style:oblique;
+    font-weight:500;
+}
+.text_property{
+    color: aqua;
+}
+.text_color{
+    color: rgba(76, 76, 155, 0.586);
+} 
+.text_align{
+    /* text-align: end; */
+    text-align: justify;
+}
+.text_decoration{
+    /* text-decoration: underline; */
+    color: gray;
+    text-decoration: line-through;
+    text-decoration-color: blueviolet;
+    text-decoration-style:double;
+}
+.text_shadow{
+    text-align: center;
+    color: red;
+    text-shadow: 12px 12px 6px #9b1e1e8b,
+    6px 6px 3px blue ;
+}
+.text_transform{
+    color: black;
+    text-transform: capitalize;
+    /* inherit; */
+    line-height: 1.5;
+    /* Рідкі випадки */
+    white-space: normal;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+.screen_first{
+font-family: "Work Sans",sans-serif;
+color: #556070;
+
+}
+.screen_first h3{
+    align-self: stretch;
+    color: #132238;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 131%;
+}
+.screen_first p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 133%;
+}
+.screen_second{
+    font-family: "DM Sans",sans-serif;
+    color: #474464;
+}
+.screen_second h3{
+    color:  #1E1B39;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 108%; 
+
+}
+.screen_second p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 175%;
+}
+.screen_third{
+    font-family: "Roboto", sans-serif;
+    color: #505F98;
+}
+.screen_third h3{
+    color: #091133;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 132%;
+    letter-spacing: 1px;
+
+}
+.screen_third p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 166.667%;
+}
