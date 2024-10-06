@@ -1,0 +1,84 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Epilogue:regular,700,800,900&display=swap');
+/* Reset */
+@import url('reset.css');
+/* body {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+ } */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+body {
+  background-color: rgba(93, 86, 75, 0.69);
+  font-family: 'Epilogue', sans-serif;
+  color: #391400;
+}
+.header {
+  margin-block-end: 100px;
+}
+.header h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 111.111%;
+  letter-spacing: -2px;
+}
+
+.page h2 {
+  text-transform: capitalize;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 114.286%;
+  letter-spacing: -1px;
+  margin-block-end: 20px;
+}
+.page h2:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-block-end: 50px;
+}
+.section__svg div {
+  margin-block-end: 50px;
+}
+.section__svg div:last-of-type {
+  margin-block-end: 0;
+}
+.section__svg img {
+  min-width: 300px;
+  font-size: 0;
+  vertical-align: middle;
+  margin-inline-end: 50px;
+}
+[class*='__container'] {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 100px;
+}
+
+
+.png__partners img,.section__jpg img,.section__practice img {
+  max-width: 1000px;
+  font-size: 0;
+  vertical-align: middle;
+  margin-inline-end: 50px;
+}
+ 
+.svg__possibility svg{
+  width: 148px;
+  height: 148px;
+  margin: 0 auto;
+  display: block;
+}
+.svg__possibility svg:hover{
+  fill: rgb(216, 14, 102);
+}
+.svg__possibility svg path:hover{
+  fill: rgb(24, 56, 41);
+}
